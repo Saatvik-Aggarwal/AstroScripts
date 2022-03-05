@@ -69,7 +69,7 @@ if (conversionType == 'l'):
         # convert W to solar luminosities
         luminosity = float(input("Enter luminosity in watts: "))
         print("Solar luminosities:")
-        print(W / 3.828e26)
+        print(luminosity / 3.828e26)
     elif (inputUnits == "L"):
         # convert solar luminosities to W
         luminosity = float(input("Enter luminosity in solar luminosities: "))
